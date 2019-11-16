@@ -20,11 +20,9 @@ In this demo, we are going to showcase the visualization feature and how to get 
 
 Spotify allows a certain portion of your personalized information viewable to the public, granted they have a valid Spotify account. When you create a playlist, it automatically defaults to public. Anyone can query your username to gather information about your public playlists, including the tracks within that playlist and listening habbits. Since all of my playlists are public, we can use the client credentials method which only performs authentication, but not authorization. More information on OATH2 and spotify security [here][auth-flows].
 
-
-
 If you don't already have Postman installed, head over to Postman's [download page][postman-download] and install it. It works on most platforms. 
 
-Once installed download the postman collection here: 
+Once installed download the postman collection [from my github][d3-spotify-github]. You can clone the repository or download it as a zip file. The postman collection filename is `visualization.postman_collection.json`.
 
 Import the postman collection:
 
