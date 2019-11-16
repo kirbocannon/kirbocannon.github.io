@@ -1,5 +1,5 @@
 ---
-title: "Post: Visualizing Spotify Data with D3 and Postman's new Visuzliation Feature"
+title: "Post: Visualizing Spotify Data with D3 and Postman's new Visualization Feature"
 excerpt_separator: "<!--more-->"
 header:
   og_image: /assets/images/postman-d3-spotify/preview-image.png
