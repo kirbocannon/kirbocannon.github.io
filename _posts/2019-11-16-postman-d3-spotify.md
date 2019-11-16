@@ -53,7 +53,7 @@ Finally, outside of our template we call `pm.visualizer.set(tmpl, pm.response.js
 
 Click `Send` and you should see the response window show up on. Click the `Visualize` tab. 
 
-![Postman Import](../assets/images/postman-d3-spotify/resp.png)
+![Postman Import](site.url/assets/images/postman-d3-spotify/resp.png)
 
 Click on the box that says `Select Playlists...` to start selecting playlists to get them to display on the screen. This graph allows you to zoom in/out using the mouse scroll wheel and pan left/right by clicking, holding, and moving your mouse cursor. 
 
