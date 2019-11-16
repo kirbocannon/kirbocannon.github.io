@@ -62,9 +62,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Network Automation Engineer @ Network To Code. Opinions are my own"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/kirbocannon"
