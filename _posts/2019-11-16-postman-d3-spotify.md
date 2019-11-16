@@ -24,7 +24,7 @@ Once installed download the postman collection here:
 
 Import the postman collection:
 
-![Postman Import](../assets/images/postman-d3-spotify/import.png)
+![Postman Import](/assets/images/postman-d3-spotify/import.png)
 
 Visualizations are written in pure JavaScript which can be placed in either the 'Pre-request Script' or 'Tests' tab. The methods that are available when writing normal API tests are also available for Visualizations. All code related to the visualization itself needs to be placed inside a JavaScript template literals. Postman then takes that template, runs it as JavaScript code, and displays it in the Visualize (Beta) response tab. 
 
@@ -32,7 +32,7 @@ Note - Using template literals within the template does not work. For example, a
 
 In the Tests tab, you'll notice the `tmpl` variable. This is a string template which will encompous all of our javascript code.
 
-![Postman Import](../assets/images/postman-d3-spotify/tests.png)
+![Postman Import](/assets/images/postman-d3-spotify/tests.png)
 
 
 Within the template string, access the response data from the Postman request by using the `pm.getData(callback)` method Postman provides:
@@ -57,15 +57,15 @@ Click `Send` and you should see the response window show up on. Click the `Visua
 
 Click on the box that says `Select Playlists...` to start selecting playlists to get them to display on the screen. This graph allows you to zoom in/out using the mouse scroll wheel and pan left/right by clicking, holding, and moving your mouse cursor. 
 
-![Postman Import](../assets/images/postman-d3-spotify/d3-select-playlists.png)
+![Postman Import](/assets/images/postman-d3-spotify/d3-select-playlists.png)
 
 Try selecting two playlists that have songs in common. In this case, the nodes will display green. You can add and remove Playlists on the fly.
 
-![Postman Import](../assets/images/postman-d3-spotify/viz-response.png)
+![Postman Import](/assets/images/postman-d3-spotify/viz-response.png)
 
 Zooming in and hovering over nodes allows you to view a track or playlist name more clearly. You can also click and drag nodes to move them about. 
 
-![Postman Import](../assets/images/postman-d3-spotify/zoomed-viz.png)
+![Postman Import](/assets/images/postman-d3-spotify/zoomed-viz.png)
 
 _Note: you can right-click the visualization and use the `inspect visualization` feature that pops up developer tools just like Chrome to do some debugging should you have any issues. Additionally, you can view errors using the Postman console in the bottom left-hand pane._ 
 
