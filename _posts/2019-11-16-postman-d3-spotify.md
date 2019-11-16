@@ -16,12 +16,11 @@ In this demo, we are going to showcase the visualization feature and how to get 
 
 <!--more-->
 
-Spotify allows a certain portion of your personalized information viewable to the public, granted they have a valid Spotify account. When you create a playlist, it automatically defaults to public. Anyone can query your username to gather information about your public playlists, including the tracks within that playlist and listening habbits. Since all of my playlists are public, we can use the client credentials method which only performs authentication, but not authorization. More information on OATH2 and spotify security here: `link: https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow`.
-
-[link text itself http://google.com
+Spotify allows a certain portion of your personalized information viewable to the public, granted they have a valid Spotify account. When you create a playlist, it automatically defaults to public. Anyone can query your username to gather information about your public playlists, including the tracks within that playlist and listening habbits. Since all of my playlists are public, we can use the client credentials method which only performs authentication, but not authorization. More information on OATH2 and spotify security [here][auth-flows].
 
 
-If you don't already have Postman installed, head over to `link: https://www.getpostman.com/downloads/` and install it. It works on most platforms. 
+
+If you don't already have Postman installed, head over to Postman's [download page][postman-download] and install it. It works on most platforms. 
 
 Once installed download the postman collection here: 
 
@@ -76,5 +75,11 @@ Welp, that's it! What visualization ideas do you have for your data? I think thi
 
 Bonus:
 
-For those interested in collecting their own data (Granted you have public playlists too), set up tokens in your Spotify Developer account. Then head over to `link: https://github.com/kirbocannon/d3-spotify` and follow the instructions to create an output of your tracks, playlists for d3/Postman to consume. After you have the output file, you can use github gist or something similar to host the json file. 
+For those interested in collecting their own data (Granted you have public playlists too), set up tokens in your Spotify Developer account. Then head over to my [github repo][d3-spotify-github] and follow the instructions to create an output of your tracks, playlists for d3/Postman to consume. After you have the output file, you can use github gist or something similar to host the json file. 
 
+
+[postman-download]: https://www.getpostman.com/downloads/
+
+[d3-spotify-github]: https://github.com/kirbocannon/d3-spotify
+
+[auth-flows]: https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow`
