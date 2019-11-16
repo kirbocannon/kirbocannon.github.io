@@ -1,6 +1,9 @@
 ---
 title: "Post: Visualizing Spotify Data with D3 and Postman's new Visuzliation Feature"
 excerpt_separator: "<!--more-->"
+header:
+  image: /assets/images/postman-d3-spotify/preview-image.png
+  og_image: /assets/images/postman-d3-spotify/preview-image.png
 categories:
   - Blog
 tags:
