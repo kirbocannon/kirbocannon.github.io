@@ -28,7 +28,7 @@ Import the postman collection:
 
 ![Postman Import](/assets/images/postman-d3-spotify/import.png)
 
-Visualizations are written in pure JavaScript which can be placed in either the 'Pre-request Script' or 'Tests' tab. The methods that are available when writing normal API tests are also available for Visualizations. All code related to the visualization itself needs to be placed inside a JavaScript template literals. Postman then takes that template, runs it as JavaScript code, and displays it in the Visualize (Beta) response tab. 
+Visualizations are written in HTML and JavaScript which can be placed in either the 'Pre-request Script' or 'Tests' tab. The methods that are available when writing normal API tests are also available for Visualizations. All code related to the visualization itself needs to be placed inside a JavaScript template literals. Postman then takes that template, runs it as JavaScript code, and displays it in the Visualize (Beta) response tab. 
 
 Note - Using template literals within the template does not work. For example, after defining the width constant within the template, I am unable to reference it using a template string later. Not that big a deal, but if you were copying code directly from something you're already using on a webserver, it's something to be aware of. 
 
