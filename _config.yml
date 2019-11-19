@@ -90,7 +90,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+    comments:
+      provider: "facebook"
+      facebook:
+        num_posts: 5
+        colorscheme: "light"
       share: true
       related: true
   # _pages
