@@ -81,6 +81,13 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kirbocannon"
 
+comments:
+  provider: "facebook"
+  facebook:
+    appid: 565491014156984
+    num_posts: 5
+    colorscheme: "light"
+
 defaults:
   # _posts
   - scope:
@@ -91,12 +98,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-    comments:
-      provider: "facebook"
-      facebook:
-        appid: 565491014156984
-        num_posts: 5
-        colorscheme: "light"
       share: true
       related: true
   # _pages
