@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efcee839-4516-43db-b92e-eb3a6ece0143" name="Default Changelist" comment="" />
+    <list default="true" id="efcee839-4516-43db-b92e-eb3a6ece0143" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-06-18-python-network-automation-multiprocessing-multithreading.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/common" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -32,11 +40,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592455323700</updated>
-      <workItem from="1592455325013" duration="4836000" />
+      <workItem from="1592455325013" duration="14391000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2243" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592460667894">
+      <screen x="1680" y="23" width="1920" height="996" />
+    </state>
+    <state x="2243" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027/1680.23.1920.996@1680.23.1920.996" timestamp="1592460667894" />
   </component>
 </project>
