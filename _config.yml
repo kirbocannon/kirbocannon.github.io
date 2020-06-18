@@ -14,13 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Tech Blog
-url: https://kirbocannon.github.io/
+url: https://codemy.network/
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Tech ramblings and hopefully useful blog posts every once in a while. 
-  Network Automation Engineer @ networktocode. Opinions are my own.
-twitter_username: username
-github_username: username
+  Tech ramblings and hopefully useful blog posts every once in a while.
+twitter_username: kirbocannon
+github_username: kirbocannon
 minimal_mistakes_skin: default
 search: true
 
@@ -32,6 +31,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+repository: kirbocannon/kirbocannon.github.io
 
 include:
   - _pages
@@ -90,9 +90,11 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      comments: true
     comments:
       provider: "facebook"
       facebook:
+        appid: 565491014156984
         num_posts: 5
         colorscheme: "light"
       share: true
@@ -104,6 +106,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true
 
 category_archive:
   type: liquid
