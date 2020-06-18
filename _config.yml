@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Kenneth Buchanan"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Network Automation Engineer @ Network To Code. Opinions are my own"
+  bio    : "Network Automation Engineer"
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
