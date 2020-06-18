@@ -20,8 +20,9 @@ tags:
 Throughout the years, I've utilized different methods to achieve concurrency in Python. In this article, I will 
 give a few simple examples of how you can speed up your tasks for network automation (or anything really!).
 
-**Heads up!** The examples include Python's API for multithreading/multiprocessing, however you may not ever need use it.
-If you are curious or need to implement your own concurrency code, the examples are for you. If you'd rather use an automation framework, check out [nornir]. It is an alternative to Ansible where you can write 
+**Heads up!** The examples include Python's API for multithreading/multiprocessing, however you may never need to use it.
+If you are curious or need to implement your own concurrency code, the examples below are for you. 
+If you'd rather use an automation framework, check out [nornir]. It is an alternative to Ansible where you can write 
 all your automation tasks in pure Python. Engineers praise it's ease of use and speed. 
 
 To make this article short, sweet, and to the point, I'm going to quickly go over a few basic concepts:
